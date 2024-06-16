@@ -30,7 +30,7 @@ jobs:
           cache: npm
 
       - name: 安装依赖
-        run: npm install
+        run: npm ci
       - name : 添加权限
         run : chmod +x ./node_modules/.bin/vuepress
 

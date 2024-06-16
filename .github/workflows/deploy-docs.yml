@@ -28,11 +28,12 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          
+
       - name: Clean npm cache and reinstall dependencies
         run: |
           npm cache clean --force
           rm -rf node_modules
+          rm -rf package-lock.json
 
       - name: 安装依赖
         run: npm ci

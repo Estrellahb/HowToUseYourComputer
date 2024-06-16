@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "陆秋 <wujacket218@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.13",
+    "@vuepress/theme-default": "^2.0.0-rc.35",
+    "vuepress": "^2.0.0-rc.13"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}

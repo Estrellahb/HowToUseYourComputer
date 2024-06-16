@@ -1,0 +1,103 @@
+<template><div><h1 id="计算机硬件" tabindex="-1"><a class="header-anchor" href="#计算机硬件"><span>计算机硬件</span></a></h1>
+<hr>
+<p>一个完整的计算机系统包含</p>
+<ul>
+<li>硬件系统</li>
+<li>软件系统</li>
+</ul>
+<p>计算机硬件系统：由输入设备、运算器、控制器、存储设备和输出设备组成。</p>
+<p>这里我要介绍常用的硬件</p>
+<h3 id="内存与硬盘" tabindex="-1"><a class="header-anchor" href="#内存与硬盘"><span>内存与硬盘</span></a></h3>
+<p>一张图认识它们
+<img src="/IMG_20240213_092223_787.jpg" alt="alt text">
+这里要纠正，平常在手机中我们总说内存不够了要删软件——指的使存储空间不足，即电脑中的(外存)硬盘容量不足。感到手机卡顿是指运行内存不足，需要杀掉点后台程序。</p>
+<blockquote>
+<p>如果当有人跟你说我内存512G或1T时候你可以看看商城价格<img src="/内存条.png" alt="alt text">说不定是隐藏大佬呢</p>
+</blockquote>
+<h4 id="内存与硬盘的区别" tabindex="-1"><a class="header-anchor" href="#内存与硬盘的区别"><span>内存与硬盘的区别</span></a></h4>
+<p>内存用于存放用于CPU处理的临时数据，容量较小；而硬盘用于存储长期保存的数据，容量很大。例如，当执行复制和剪切文字操作时，数据存储在内存中；而在粘贴并保存文件后，更改将被写入硬盘。值得注意的是，当你电脑不幸崩溃或者突然断电，存储在内存中数据会丢失，而存在硬盘中数据会永久保存，所以请多多执行保存 <code v-pre>ctrl+s</code></p>
+<p>好的，我来给你简要介绍一下CPU（中央处理器）和显卡（GPU，图形处理器），并尽量用简单易懂的语言解释。</p>
+<h3 id="cpu-中央处理器" tabindex="-1"><a class="header-anchor" href="#cpu-中央处理器"><span>CPU（中央处理器）</span></a></h3>
+<h4 id="_1-定义和功能" tabindex="-1"><a class="header-anchor" href="#_1-定义和功能"><span>1. 定义和功能</span></a></h4>
+<ul>
+<li><strong>中央处理器（CPU）</strong> 是计算机的核心部件之一。它就像计算机的大脑，负责执行所有的计算任务和操作指令。</li>
+<li>CPU的主要功能包括：
+<ul>
+<li><strong>处理数据</strong>：执行各种计算任务，如数学运算、逻辑判断等。</li>
+<li><strong>控制指令</strong>：管理计算机的所有操作，决定什么时候执行哪些任务。</li>
+<li><strong>数据传输</strong>：在计算机的不同部分之间传输数据。</li>
+</ul>
+</li>
+</ul>
+<h4 id="_2-关键指标" tabindex="-1"><a class="header-anchor" href="#_2-关键指标"><span>2. 关键指标</span></a></h4>
+<ul>
+<li><strong>时钟速度（GHz）</strong>：表示CPU每秒可以执行的指令数。时钟速度越高，CPU的处理速度越快。</li>
+<li><strong>核心数</strong>：现代CPU通常有多个核心，每个核心可以独立执行任务。更多的核心意味着可以同时处理更多的任务。</li>
+<li><strong>缓存（Cache）</strong>：CPU内置的高速存储，用于存放常用数据，加快数据访问速度。</li>
+</ul>
+<h3 id="显卡-gpu-图形处理器" tabindex="-1"><a class="header-anchor" href="#显卡-gpu-图形处理器"><span>显卡（GPU，图形处理器）</span></a></h3>
+<h4 id="_1-定义和功能-1" tabindex="-1"><a class="header-anchor" href="#_1-定义和功能-1"><span>1. 定义和功能</span></a></h4>
+<ul>
+<li><strong>图形处理器（GPU）</strong> 是专门用于处理图形和图像相关任务的硬件。它常用于渲染图形、视频处理和执行复杂的计算任务。</li>
+<li>GPU的主要功能包括：
+<ul>
+<li><strong>图形渲染</strong>：生成和处理计算机图像，特别是3D图形。在玩游戏或使用图形密集型应用时，显卡起着关键作用。</li>
+<li><strong>并行计算</strong>：由于GPU有大量的处理单元，它可以同时处理大量的数据，非常适合处理并行计算任务，如人工智能和科学计算。</li>
+</ul>
+</li>
+</ul>
+<h4 id="_2-关键指标-1" tabindex="-1"><a class="header-anchor" href="#_2-关键指标-1"><span>2. 关键指标</span></a></h4>
+<ul>
+<li><strong>显存（VRAM）</strong>：GPU专用的高速存储，用于存储图形数据和纹理。显存越大，能够处理的图形数据就越多。</li>
+<li><strong>CUDA核心/流处理器</strong>：这些是GPU内部的处理单元，数量越多，图形处理能力越强。</li>
+<li><strong>带宽</strong>：显存和GPU之间的数据传输速率，带宽越高，图形处理效率越高。</li>
+</ul>
+<h3 id="cpu-vs-gpu" tabindex="-1"><a class="header-anchor" href="#cpu-vs-gpu"><span>CPU vs GPU</span></a></h3>
+<ul>
+<li><strong>任务类型</strong>：CPU擅长执行复杂的逻辑运算和多任务处理，而GPU擅长处理并行任务和大量数据计算。</li>
+<li><strong>结构</strong>：CPU通常有较少的核心，但每个核心的处理能力很强；GPU有成千上万的核心，专为并行处理设计。</li>
+<li><strong>应用场景</strong>：CPU用于日常计算任务，如运行操作系统和应用程序；GPU用于图形渲染、视频处理、游戏以及科学计算等。</li>
+</ul>
+<p>CPU和GPU各有所长，CPU是计算机的大脑，负责总体控制和逻辑处理；GPU是计算机的图形专家，擅长图形渲染和并行计算。两者相互配合，使计算机能够高效地运行各种复杂的任务。</p>
+<p>CPU 和 GPU 的主要厂商如下：</p>
+<h3 id="cpu-厂商" tabindex="-1"><a class="header-anchor" href="#cpu-厂商"><span>CPU 厂商</span></a></h3>
+<h4 id="_1-英特尔-intel-【俗称iu】" tabindex="-1"><a class="header-anchor" href="#_1-英特尔-intel-【俗称iu】"><span>1. 英特尔 (Intel) 【俗称IU】</span></a></h4>
+<ul>
+<li><strong>简介</strong>：英特尔是全球领先的半导体公司之一，成立于1968年，总部位于美国加利福尼亚州。</li>
+<li><strong>主要产品</strong>：Intel Core 系列 (i3, i5, i7, i9)、Xeon 系列 (用于服务器和工作站)、Pentium 和 Celeron 系列（入门级）。</li>
+</ul>
+<h4 id="_2-超威半导体-amd-【俗称au】" tabindex="-1"><a class="header-anchor" href="#_2-超威半导体-amd-【俗称au】"><span>2. 超威半导体 (AMD)【俗称AU】</span></a></h4>
+<ul>
+<li><strong>简介</strong>：AMD (Advanced Micro Devices) 是另一家知名的半导体公司，成立于1969年，总部位于美国加利福尼亚州。</li>
+<li><strong>主要产品</strong>：AMD Ryzen 系列 (Ryzen 3, Ryzen 5, Ryzen 7, Ryzen 9)、Threadripper 系列（高性能桌面处理器）、EPYC 系列（服务器处理器）。</li>
+</ul>
+<p>尽管 Intel 和 AMD 的处理器系列有不同的型号，数字越高通常表示性能越强，但这并不总是绝对的，还需要考虑处理器所属的代数。比如inter第10代 i5 处理器（如 i5-10400）在某些任务中可能比第8代 i7 处理器（如 i7-8700）更高效。</p>
+<h3 id="gpu-厂商" tabindex="-1"><a class="header-anchor" href="#gpu-厂商"><span>GPU 厂商</span></a></h3>
+<h4 id="_1-英伟达-nvidia" tabindex="-1"><a class="header-anchor" href="#_1-英伟达-nvidia"><span>1. 英伟达 (NVIDIA)</span></a></h4>
+<ul>
+<li><strong>简介</strong>：NVIDIA 是图形处理器领域的领导者，成立于1993年，总部位于美国加利福尼亚州。</li>
+<li><strong>主要产品</strong>：GeForce 系列（用于游戏和个人计算）、Quadro 系列（专业图形工作站）、Tesla 和 A100 系列（用于数据中心和人工智能计算）。</li>
+</ul>
+<h4 id="_2-超威半导体-amd" tabindex="-1"><a class="header-anchor" href="#_2-超威半导体-amd"><span>2. 超威半导体 (AMD)</span></a></h4>
+<ul>
+<li><strong>简介</strong>：除了制造 CPU，AMD 也是 GPU 市场的主要竞争者之一。</li>
+<li><strong>主要产品</strong>：Radeon 系列（用于游戏和个人计算）、Radeon Pro 系列（专业图形工作站）、Instinct 系列（用于数据中心和高性能计算）。</li>
+</ul>
+<h4 id="_3-英特尔-intel" tabindex="-1"><a class="header-anchor" href="#_3-英特尔-intel"><span>3. 英特尔 (Intel)</span></a></h4>
+<ul>
+<li><strong>简介</strong>：虽然英特尔主要以 CPU 闻名，但近年来也开始进军 GPU 市场。</li>
+<li><strong>主要产品</strong>：Intel Iris 和 Intel UHD 系列（集成显卡）、Intel Arc 系列（独立显卡）。</li>
+</ul>
+<h3 id="集成显卡与独立显卡" tabindex="-1"><a class="header-anchor" href="#集成显卡与独立显卡"><span>集成显卡与独立显卡</span></a></h3>
+<ul>
+<li><strong>集成显卡</strong>是集成于主板或CPU中，具有基本的图形处理能力，可以满足日常办公和看视频等需求，功耗低。但对于复杂图形处理等任务时性能有限，一般会用在轻薄本中【用轻薄本打3A肯定运行不起来呀】</li>
+<li><strong>独立显卡</strong>是独立的硬件组件，拥有自己的图形处理与视频内存，支持复杂的图形处理，高分辨率显示和3D游戏等，一般会用在高性能笔记本中</li>
+</ul>
+<p>⚠如果你第一次拿到笔记本电脑，并确认电脑中带有独立显卡，但使用设备管理器不显示，需要你去手动下载对应版本的官方驱动程序，以下是驱动下载地址</p>
+<blockquote>
+<p>英特尔 https://www.nvidia.cn/geforce/drivers/ AMD https://www.amd.com/zh-cn/support/download/drivers.html
+对硬件知识想要了解更多，可以看UP：硬件杂谈，视频中使用动画更为清晰介绍各个硬件的功能 https://space.bilibili.com/14871346</p>
+</blockquote>
+</div></template>
+
+

@@ -7,6 +7,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: '如何使用你的电脑 ',
   description: '这是我的第一个 VuePress 站点',
+  base: '/HowToUseYourComputer/',
   
   bundler: viteBundler(),
 
@@ -20,6 +21,6 @@ export default defineUserConfig({
 
     // 侧边栏配置
     sidebar,
-    base: '/HowToUseYourComputer/',
+    
   })
 })

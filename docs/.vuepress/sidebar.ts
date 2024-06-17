@@ -28,7 +28,11 @@ const sidebar: SidebarConfig = {
         text:'软件篇',
         prefix: '/content/软件篇/',
         children:[
-            '开关机.md'
+            '开关机.md',
+            '认识此电脑.md',
+            '浏览器的使用.md',
+            '搜索引擎.md',
+            '下载与安装.md',
         ]
     }
   ]

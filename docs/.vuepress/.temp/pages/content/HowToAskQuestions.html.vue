@@ -5,7 +5,7 @@
 <p>💡 完整内容 <a href="https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md" target="_blank" rel="noopener noreferrer">How-To-Ask-Questions</a></p>
 </blockquote>
 <blockquote>
-<p>打不开可以看这个PDF<a href="/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7.pdf">提问的智慧.pdf</a></p>
+<p>打不开可以看这个PDF<a href="/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7.pdf" target="_blank" rel="noopener noreferrer">提问的智慧.pdf</a></p>
 </blockquote>
 <p>简单来说看下图
 <img src="/提问思维导图.jpg" alt="Untitled"></p>

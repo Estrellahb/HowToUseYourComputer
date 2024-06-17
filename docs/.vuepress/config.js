@@ -20,5 +20,6 @@ export default defineUserConfig({
 
     // 侧边栏配置
     sidebar,
+    base: '/HowToUseYourComputer/',
   })
 })

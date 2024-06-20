@@ -12,6 +12,10 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   theme: defaultTheme({
+    // 开启代码块的行号
+    lineNumbers: true,
+    // 支持 4 级以上的标题渲染
+    extractHeaders: ["h2", "h3", "h4", "h5", "h6"],
     // 导航栏配置
     // navbar: [
     //   { text: '首页', link: '/' },

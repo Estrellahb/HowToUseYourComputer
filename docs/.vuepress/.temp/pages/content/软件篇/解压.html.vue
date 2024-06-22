@@ -9,7 +9,7 @@
 </ul>
 <h2 id="解压文件" tabindex="-1"><a class="header-anchor" href="#解压文件"><span>解压文件</span></a></h2>
 <p>这里我做了一个压缩文件供大家练习
-<a href="/%E6%9D%A5%E5%B0%9D%E8%AF%95%E4%B8%80%E4%B8%8B.7z" target="_blank" rel="noopener noreferrer">点我下载</a>
+<a href="https://github.com/Estrellahb/HowToUseYourComputer/blob/main/docs/.vuepress/public/%E6%9D%A5%E5%B0%9D%E8%AF%95%E4%B8%80%E4%B8%8B.7z" target="_blank" rel="noopener noreferrer">点我下载</a>
 接下来我会按照这个文件讲解如何解压
 <em><strong>前置条件：打开文件管理器中‘文件拓展名’并下载了7z或bandzip解压工具</strong></em></p>
 <ol>

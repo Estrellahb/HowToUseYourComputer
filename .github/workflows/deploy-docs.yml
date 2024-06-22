@@ -23,7 +23,7 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Clean npm cache and reinstall dependencies
+      - name: 清理 npm 缓存并重新安装依赖
         run: |
           npm cache clean --force
           rm -rf node_modules

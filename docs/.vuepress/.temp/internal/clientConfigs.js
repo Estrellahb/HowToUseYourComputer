@@ -1,4 +1,4 @@
-import * as clientConfig0 from 'D:/HowToUseYourComputer/HowToUseYourComputer/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
+import * as clientConfig0 from 'D:/HowToUseYourComputer/HowToUseYourComputer/node_modules/@vuepress/theme-default/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
 import * as clientConfig1 from 'D:/HowToUseYourComputer/HowToUseYourComputer/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
 import * as clientConfig2 from 'D:/HowToUseYourComputer/HowToUseYourComputer/node_modules/@vuepress/plugin-copy-code/lib/client/config.js'
 import * as clientConfig3 from 'D:/HowToUseYourComputer/HowToUseYourComputer/node_modules/@vuepress/plugin-medium-zoom/lib/client/config.js'

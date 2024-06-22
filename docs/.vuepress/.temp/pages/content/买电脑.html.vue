@@ -21,6 +21,8 @@
 <blockquote>
 <p>这里要纠正，市场上称呼高性能笔记本为“游戏本”，很多对电脑知识不是很了解的家长误以为买了“游戏本”我的孩子只会打游戏从而拒绝孩子的请求。事实上，高性能笔记本被称作“游戏本”的主要原因是其具备强大的硬件配置（这里会在硬件篇会说明）可以满足大型游戏的需求，从而商家宣传通常于此绑定在一起。</p>
 </blockquote>
+<h3 id="来自微软官方的电脑购买推荐" tabindex="-1"><a class="header-anchor" href="#来自微软官方的电脑购买推荐"><span>来自微软官方的电脑购买推荐</span></a></h3>
+<p><a href="https://www.microsoft.com/zh-cn/windows/help-me-choose" target="_blank" rel="noopener noreferrer">https://www.microsoft.com/zh-cn/windows/help-me-choose</a></p>
 <h3 id="选择购买平台" tabindex="-1"><a class="header-anchor" href="#选择购买平台"><span>选择购买平台</span></a></h3>
 <h4 id="线下购买建议" tabindex="-1"><a class="header-anchor" href="#线下购买建议"><span>线下购买建议</span></a></h4>
 <p>线下购买可以直观感受产品的质量和外观，但需要注意以下几点：</p>

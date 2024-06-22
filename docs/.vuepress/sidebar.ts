@@ -33,7 +33,9 @@ const sidebar: SidebarConfig = {
             '浏览器的使用.md',
             '搜索引擎.md',
             '下载与安装.md',
+            '卸载.md',
             '推荐安装应用.md',
+            '解压.md',
         ]
     }
   ]

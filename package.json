@@ -8,12 +8,16 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.13",
     "@vuepress/plugin-active-header-links": "^1.9.10",
-    "@vuepress/plugin-search": "^1.9.10",
+    "@vuepress/plugin-search": "^2.0.0-rc.37",
     "@vuepress/theme-default": "^2.0.0-rc.35",
-    "vuepress": "^2.0.0-rc.13"
+    "vuepress": "^2.0.0-rc.14",
+    "vuepress-theme-hope": "^2.0.0-rc.50"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "highlight.js": "^11.10.0"
   }
 }

@@ -18,6 +18,10 @@ const sidebar: SidebarConfig = {
     },
     {
       text: '硬件篇',
+      // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+      // 可选的。设置分组是否默认展开，默认值是 false
+      expanded: true,
       children: [
         '/content/硬件篇/键盘.md',
         '/content/硬件篇/计算机硬件.md',
@@ -27,6 +31,10 @@ const sidebar: SidebarConfig = {
     {
         text:'软件篇',
         prefix: '/content/软件篇/',
+        // 可选的, 设置分组是否可以折叠，默认值是 false,
+        collapsible: true,
+        // 可选的。设置分组是否默认展开，默认值是 false
+        expanded: true,
         children:[
             '开关机.md',
             '认识此电脑.md',

@@ -1,3 +1,5 @@
+import "./chunk-V6TY7KAL.js";
+
 // node_modules/@vuepress/shared/dist/index.js
 var isLinkWithProtocol = (link) => /^[a-z][a-z0-9+.-]*:/.test(link) || link.startsWith("//");
 var markdownLinkRegexp = /.md((\?|#).*)?$/;
@@ -5,8 +7,7 @@ var isLinkExternal = (link, base = "/") => isLinkWithProtocol(link) || // absolu
 link.startsWith("/") && !link.startsWith(base) && !markdownLinkRegexp.test(link);
 var isLinkHttp = (link) => /^(https?:)?\/\//.test(link);
 var inferRoutePath = (path) => {
-  if (!path || path.endsWith("/"))
-    return path;
+  if (!path || path.endsWith("/")) return path;
   let routePath = path.replace(/(^|\/)README.md$/i, "$1index.html");
   if (routePath.endsWith(".md")) {
     routePath = routePath.substring(0, routePath.length - 3) + ".html";

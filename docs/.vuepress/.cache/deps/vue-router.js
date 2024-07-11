@@ -19,7 +19,8 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-ICRYXTSQ.js";
+} from "./chunk-AU3CLKKL.js";
+import "./chunk-V6TY7KAL.js";
 
 // node_modules/vue-router/dist/vue-router.mjs
 var isBrowser = typeof document !== "undefined";
@@ -170,6 +171,18 @@ function resolveRelativePath(to, from) {
   }
   return fromSegments.slice(0, position).join("/") + "/" + toSegments.slice(toPosition).join("/");
 }
+var START_LOCATION_NORMALIZED = {
+  path: "/",
+  // TODO: could we use a symbol in the future?
+  name: void 0,
+  params: {},
+  query: {},
+  hash: "",
+  fullPath: "/",
+  matched: [],
+  meta: {},
+  redirectedFrom: void 0
+};
 var NavigationType;
 (function(NavigationType2) {
   NavigationType2["pop"] = "pop";
@@ -539,17 +552,6 @@ function isRouteLocation(route) {
 function isRouteName(name) {
   return typeof name === "string" || typeof name === "symbol";
 }
-var START_LOCATION_NORMALIZED = {
-  path: "/",
-  name: void 0,
-  params: {},
-  query: {},
-  hash: "",
-  fullPath: "/",
-  matched: [],
-  meta: {},
-  redirectedFrom: void 0
-};
 var NavigationFailureSymbol = Symbol(true ? "navigation failure" : "");
 var NavigationFailureType;
 (function(NavigationFailureType2) {
@@ -1099,7 +1101,18 @@ function createRouterMatcher(routes, globalOptions) {
     };
   }
   routes.forEach((route) => addRoute(route));
-  return { addRoute, resolve, removeRoute, getRoutes, getRecordMatcher };
+  function clearRoutes() {
+    matchers.length = 0;
+    matcherMap.clear();
+  }
+  return {
+    addRoute,
+    resolve,
+    removeRoute,
+    clearRoutes,
+    getRoutes,
+    getRecordMatcher
+  };
 }
 function paramsFromLocation(params, keys) {
   const newParams = {};
@@ -2204,7 +2217,7 @@ function createRouter(options) {
     if (!isRouteLocation(rawLocation)) {
       warn(`router.resolve() was passed an invalid location. This will fail in production.
 - Location:`, rawLocation);
-      rawLocation = {};
+      return resolve({});
     }
     let matcherLocation;
     if (rawLocation.path != null) {
@@ -2600,6 +2613,7 @@ ${JSON.stringify(newTargetLocation, null, 2)}
     listening: true,
     addRoute,
     removeRoute,
+    clearRoutes: matcher.clearRoutes,
     hasRoute,
     getRoutes,
     resolve,
@@ -2691,7 +2705,7 @@ function extractChangingRecords(to, from) {
 function useRouter() {
   return inject(routerKey);
 }
-function useRoute() {
+function useRoute(_name) {
   return inject(routeLocationKey);
 }
 export {
@@ -2723,7 +2737,7 @@ export {
 
 vue-router/dist/vue-router.mjs:
   (*!
-    * vue-router v4.3.3
+    * vue-router v4.4.0
     * (c) 2024 Eduardo San Martin Morote
     * @license MIT
     *)

@@ -23,13 +23,19 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: 安装 VuePress 全局依赖
+        run: npm install -g vuepress
+
       - name: 安装依赖
         run: npm install
+
+      - name: 强制设置执行权限
+        run: chmod +x node_modules/.bin/vuepress
 
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: npx vuepress build docs
+        run: npm run docs:build
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4

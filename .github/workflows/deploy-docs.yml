@@ -23,12 +23,6 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: 清理 npm 缓存并重新安装依赖
-        run: |
-          npm cache clean --force
-          rm -rf node_modules
-          rm -rf package-lock.json
-
       - name: 安装依赖
         run: npm install
 

@@ -38,16 +38,6 @@ google的主要使用语言是英语，对此，查各类文献以及相关专�
 <a href="https://bestming.github.io/search_tools/" target="_blank" rel="noopener noreferrer">https://bestming.github.io/search_tools/</a>
 信息是主动搜索来的，前期问题会遇到非常多，不要气馁，多多尝试</li>
 </ol>
-<h2 id="aichat" tabindex="-1"><a class="header-anchor" href="#aichat"><span>AIChat</span></a></h2>
-<p>近期大火的人工智能极大简化了信息搜索的难度。通过与AI对话，用户能够轻松获取所需信息，这对信息搜索有很大的帮助。然而，需注意信息的真伪性。有时，AI遇到自己不熟悉的内容时会编造答案。此外，不联网的AI仅基于特定时间的数据库，其回答可能会有些滞后。对于小白来说，使用AI进行初步了解某一领域的知识点框架还是非常有帮助的。</p>
-<p><strong>使用方式推荐：</strong></p>
-<ul>
-<li>可以向AI提问某个知识点或关键词，以获取相关信息。</li>
-</ul>
-<h3 id="ai工具推荐" tabindex="-1"><a class="header-anchor" href="#ai工具推荐"><span>AI工具推荐</span></a></h3>
-<p><a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a>
-<a href="https://chatglm.cn/" target="_blank" rel="noopener noreferrer">智普清言</a>
-<a href="https://www.tiangong.cn/" target="_blank" rel="noopener noreferrer">天工</a></p>
 </div></template>
 
 

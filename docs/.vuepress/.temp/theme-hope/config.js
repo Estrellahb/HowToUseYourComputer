@@ -1,11 +1,11 @@
 import { defineClientConfig } from "vuepress/client";
-import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "d:/HowToUseYourComputer/HowToUseYourComputer/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "D:/HowToUseYourComputer/HowToUseYourComputer/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineCatalogInfoGetter } from "d:/HowToUseYourComputer/HowToUseYourComputer/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "D:/HowToUseYourComputer/HowToUseYourComputer/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
 
-import "d:/HowToUseYourComputer/HowToUseYourComputer/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
-import "d:/HowToUseYourComputer/HowToUseYourComputer/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "D:/HowToUseYourComputer/HowToUseYourComputer/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
+import "D:/HowToUseYourComputer/HowToUseYourComputer/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;

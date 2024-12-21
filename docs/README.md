@@ -19,7 +19,7 @@
 - vuepress-theme-hope
 ---
 ## 参考内容
->计算机教育中缺失的学期(2024-2025) - 第一讲 - 电子扫盲 - 华东师范大学 - 博远信息技术社- https://www.bilibili.com/video/BV1JkzGYuEGo/<br>提问的智慧 - https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md<br>
+>[计算机教育中缺失的学期(2024-2025) - 第一讲 - 电子扫盲 - 华东师范大学 - 博远信息技术社](https://www.bilibili.com/video/BV1JkzGYuEGo/)<br>[提问的智慧](https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)<br>
 
 
 

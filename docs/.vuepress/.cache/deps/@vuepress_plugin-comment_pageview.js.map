@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../node_modules/@vuepress/plugin-comment/lib/client/pageview/noop.js"],
-  "sourcesContent": ["export const isSupported = false;\nexport const usePageview = () => () => {\n    // do nothing\n};\n"],
-  "mappings": ";;;AAAO,IAAM,cAAc;AACpB,IAAM,cAAc,MAAM,MAAM;AAEvC;",
-  "names": []
-}

@@ -2,13 +2,79 @@ export const searchIndex = [
   {
     "title": "前言",
     "headers": [],
+    "path": "/README-old.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "How to use your computer/如何使用你的电脑",
+    "headers": [
+      {
+        "level": 2,
+        "title": "前言",
+        "slug": "前言",
+        "link": "#前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "link": "#目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "项目框架和依赖",
+        "slug": "项目框架和依赖",
+        "link": "#项目框架和依赖",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考内容",
+        "slug": "参考内容",
+        "link": "#参考内容",
+        "children": []
+      }
+    ],
     "path": "/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "如何提问题",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "为什么要提问",
+        "slug": "为什么要提问",
+        "link": "#为什么要提问",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "怎么提问",
+        "slug": "怎么提问",
+        "link": "#怎么提问",
+        "children": [
+          {
+            "level": 3,
+            "title": "不要做以下的事情",
+            "slug": "不要做以下的事情",
+            "link": "#不要做以下的事情",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "向谁提问",
+        "slug": "向谁提问",
+        "link": "#向谁提问",
+        "children": []
+      }
+    ],
     "path": "/content/HowToAskQuestions.html",
     "pathLocale": "/",
     "extraFields": []
@@ -325,21 +391,6 @@ export const searchIndex = [
         "slug": "信息检索",
         "link": "#信息检索",
         "children": []
-      },
-      {
-        "level": 2,
-        "title": "AIChat",
-        "slug": "aichat",
-        "link": "#aichat",
-        "children": [
-          {
-            "level": 3,
-            "title": "AI工具推荐",
-            "slug": "ai工具推荐",
-            "link": "#ai工具推荐",
-            "children": []
-          }
-        ]
       }
     ],
     "path": "/content/%E8%BD%AF%E4%BB%B6%E7%AF%87/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E.html",

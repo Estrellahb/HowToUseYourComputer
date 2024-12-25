@@ -4,8 +4,9 @@
 <strong>Google &gt; bing &gt; baidu</strong>
 google的主要使用语言是英语，对此，查各类文献以及相关专业知识方便快捷，当然中文搜索也很好用。bing是将搜索引擎分成了国内版和国外版。而Baidu，信息准确度不是很理想，原因在于它总是推荐自家产品和大量广告，使得许多人难以分辨信息的真假从而上当。</p>
 <h2 id="关闭广告" tabindex="-1"><a class="header-anchor" href="#关闭广告"><span>关闭广告</span></a></h2>
-<p>广告对于搜索引擎厂商是一个盈利点，但对于用户来说无法快速得到准确信息，但可以用浏览器中扩展程序来屏蔽（以adblock为例）
-<em><strong>edge</strong></em></p>
+<p>广告对于搜索引擎厂商是一个盈利点，但对于用户来说无法快速得到准确信息，但可以用浏览器中扩展程序来屏蔽（以adblock为例）<br></p>
+<hr>
+<p><em><strong>edge</strong></em></p>
 <ol>
 <li>在搜索引擎中搜索adblock plus 或在地址栏输入以下网址 <a href="https://getadblock.com/zh_CN/" target="_blank" rel="noopener noreferrer">https://getadblock.com/zh_CN/</a></li>
 <li>点击 获取edge版本的adblock plus 之后会跳转到微软商城，点击获取按钮</li>

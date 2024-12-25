@@ -1,23 +1,35 @@
-<template><div><h1 id="触控板" tabindex="-1"><a class="header-anchor" href="#触控板"><span>触控板</span></a></h1>
-<p>在笔记本键盘下方，有一块方形板叫做触控板。它用于替代鼠标的一些功能，包括：</p>
+<template><div><h1 id="触控板、屏幕与散热通道" tabindex="-1"><a class="header-anchor" href="#触控板、屏幕与散热通道"><span>触控板、屏幕与散热通道</span></a></h1>
+<h2 id="触控板" tabindex="-1"><a class="header-anchor" href="#触控板"><span>触控板</span></a></h2>
+<p>笔记本键盘下方有一块方形板，称为触控板，用于替代鼠标的基本功能，包括：</p>
 <ul>
-<li>移动指针</li>
-<li>左按键</li>
-<li>滚动区</li>
-<li>右按键</li>
+<li><strong>移动指针</strong></li>
+<li><strong>左键点击</strong></li>
+<li><strong>滚动区域</strong></li>
+<li><strong>右键点击</strong></li>
 </ul>
 <h3 id="建议" tabindex="-1"><a class="header-anchor" href="#建议"><span>建议</span></a></h3>
-<p>建议购买一个鼠标来替代触控板的功能，这样操作起来更为灵敏快捷。</p>
+<p>触控板适合临时操作，但不够灵敏。建议购买鼠标替代触控板，操作更高效、快捷。
+使用方式：左键单击图标按钮是选中，双击是打开、右键单击图标是打开菜单栏。</p>
+<hr>
 <h2 id="屏幕" tabindex="-1"><a class="header-anchor" href="#屏幕"><span>屏幕</span></a></h2>
-<p>键盘的上方，合页结构的另一半是屏幕。屏幕属于输出设备，将用户对计算机的操作显示在屏幕上。屏幕上方可能会有一个圆形玻璃孔，那是摄像头。</p>
-<h4 id="隐私建议" tabindex="-1"><a class="header-anchor" href="#隐私建议"><span>隐私建议</span></a></h4>
-<p>如果担心他人利用摄像头窃取隐私，可以使用胶布封住摄像头，或者在设置中关闭摄像头访问权限。</p>
+<p>屏幕位于键盘上方的合页另一侧，是输出设备，用于显示计算机的操作内容。<br>
+通常屏幕上方有一个圆形玻璃孔，那是摄像头。</p>
+<h3 id="隐私建议" tabindex="-1"><a class="header-anchor" href="#隐私建议"><span>隐私建议</span></a></h3>
+<ul>
+<li><strong>物理遮挡</strong>：用胶布遮住摄像头，防止隐私泄露。</li>
+<li><strong>权限控制</strong>：通过系统设置禁用摄像头访问权限，增强隐私保护。</li>
+</ul>
+<hr>
 <h2 id="散热通道" tabindex="-1"><a class="header-anchor" href="#散热通道"><span>散热通道</span></a></h2>
-<p>⚠⚠⚠ 注意
-请不要试图遮挡或封住散热通道，这样会导致电脑过热损坏。</p>
-<p>笔记本电脑上有许多竖排孔洞，背面还有圆形孔洞（风扇），它们的作用是将电脑芯片产生的热量排放出去。笔记本自带温度监控，如果温度较高，风扇会加速转动。</p>
-<h3 id="提升散热速度的建议" tabindex="-1"><a class="header-anchor" href="#提升散热速度的建议"><span>提升散热速度的建议</span></a></h3>
-<p>最简单的方式是垫高笔记本底部，使其与桌面留些空间（例如用瓶盖或9.9元的不锈钢支架）。如果温度过高，笔记本会触发过热保护，自动关机。如果开机不久后温度就超过80度，需要考虑是否风道堵塞，需要清灰或更换硅脂。</p>
+<p>⚠ <strong>注意</strong><br>
+不要遮挡散热通道，否则可能导致电脑过热，损坏硬件。</p>
+<p>笔记本上的竖排孔洞和背面的风扇孔是用于排放热量的散热通道。电脑配备温度监控系统，温度高时风扇会自动加速，发出噪音是正常现象。</p>
+<h3 id="提升散热的建议" tabindex="-1"><a class="header-anchor" href="#提升散热的建议"><span>提升散热的建议</span></a></h3>
+<ol>
+<li><strong>垫高底部</strong>：使用瓶盖、不锈钢支架等物品，将笔记本底部抬高，增加通风空间。</li>
+<li><strong>清理灰尘</strong>：若温度长期过高（如超过 80℃），检查散热风道是否堵塞，必要时清灰或更换硅脂。</li>
+<li><strong>注意温度</strong>：当温度过高时，笔记本可能触发过热保护并自动关机，需及时处理。</li>
+</ol>
 <h5 id="关于笔记本为什么会产热-可以看这位大佬写的科普" tabindex="-1"><a class="header-anchor" href="#关于笔记本为什么会产热-可以看这位大佬写的科普"><span>关于笔记本为什么会产热，可以看这位大佬写的科普</span></a></h5>
 <blockquote>
 <p>https://tieba.baidu.com/p/7434136337</p>

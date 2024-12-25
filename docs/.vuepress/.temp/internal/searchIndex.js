@@ -84,50 +84,43 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "个人电脑的种类",
-        "slug": "个人电脑的种类",
-        "link": "#个人电脑的种类",
+        "title": "电脑的分类",
+        "slug": "电脑的分类",
+        "link": "#电脑的分类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "笔记本电脑分类",
+        "slug": "笔记本电脑分类",
+        "link": "#笔记本电脑分类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "如何选购电脑",
+        "slug": "如何选购电脑",
+        "link": "#如何选购电脑",
         "children": [
           {
             "level": 3,
-            "title": "台式机分类",
-            "slug": "台式机分类",
-            "link": "#台式机分类",
+            "title": "购买方式：",
+            "slug": "购买方式",
+            "link": "#购买方式",
             "children": []
           },
           {
             "level": 3,
-            "title": "笔记本分类",
-            "slug": "笔记本分类",
-            "link": "#笔记本分类",
+            "title": "常见品牌分类",
+            "slug": "常见品牌分类",
+            "link": "#常见品牌分类",
             "children": []
           },
           {
             "level": 3,
-            "title": "来自微软官方的电脑购买推荐",
-            "slug": "来自微软官方的电脑购买推荐",
-            "link": "#来自微软官方的电脑购买推荐",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "选择购买平台",
-            "slug": "选择购买平台",
-            "link": "#选择购买平台",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "选择电脑品牌",
-            "slug": "选择电脑品牌",
-            "link": "#选择电脑品牌",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "电脑硬件篇",
-            "slug": "电脑硬件篇",
-            "link": "#电脑硬件篇",
+            "title": "查阅配置参数",
+            "slug": "查阅配置参数",
+            "link": "#查阅配置参数",
             "children": []
           }
         ]
@@ -138,21 +131,37 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "触控板",
+    "title": "触控板、屏幕与散热通道",
     "headers": [
       {
-        "level": 3,
-        "title": "建议",
-        "slug": "建议",
-        "link": "#建议",
-        "children": []
+        "level": 2,
+        "title": "触控板",
+        "slug": "触控板",
+        "link": "#触控板",
+        "children": [
+          {
+            "level": 3,
+            "title": "建议",
+            "slug": "建议",
+            "link": "#建议",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
         "title": "屏幕",
         "slug": "屏幕",
         "link": "#屏幕",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "隐私建议",
+            "slug": "隐私建议",
+            "link": "#隐私建议",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
@@ -162,9 +171,9 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "提升散热速度的建议",
-            "slug": "提升散热速度的建议",
-            "link": "#提升散热速度的建议",
+            "title": "提升散热的建议",
+            "slug": "提升散热的建议",
+            "link": "#提升散热的建议",
             "children": []
           }
         ]
@@ -178,53 +187,33 @@ export const searchIndex = [
     "title": "计算机硬件",
     "headers": [
       {
-        "level": 3,
-        "title": "内存与硬盘",
-        "slug": "内存与硬盘",
-        "link": "#内存与硬盘",
+        "level": 2,
+        "title": "1. 处理器 (CPU) - 电脑的大脑",
+        "slug": "_1-处理器-cpu-电脑的大脑",
+        "link": "#_1-处理器-cpu-电脑的大脑",
         "children": []
       },
       {
-        "level": 3,
-        "title": "CPU（中央处理器）",
-        "slug": "cpu-中央处理器",
-        "link": "#cpu-中央处理器",
+        "level": 2,
+        "title": "2. 显卡 (GPU) - 图形处理器",
+        "slug": "_2-显卡-gpu-图形处理器",
+        "link": "#_2-显卡-gpu-图形处理器",
         "children": []
       },
       {
-        "level": 3,
-        "title": "显卡（GPU，图形处理器）",
-        "slug": "显卡-gpu-图形处理器",
-        "link": "#显卡-gpu-图形处理器",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "CPU vs GPU",
-        "slug": "cpu-vs-gpu",
-        "link": "#cpu-vs-gpu",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "CPU 厂商",
-        "slug": "cpu-厂商",
-        "link": "#cpu-厂商",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "GPU 厂商",
-        "slug": "gpu-厂商",
-        "link": "#gpu-厂商",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "集成显卡与独立显卡",
-        "slug": "集成显卡与独立显卡",
-        "link": "#集成显卡与独立显卡",
-        "children": []
+        "level": 2,
+        "title": "3. 内存与外存",
+        "slug": "_3-内存与外存",
+        "link": "#_3-内存与外存",
+        "children": [
+          {
+            "level": 3,
+            "title": "内存与外存的区别",
+            "slug": "内存与外存的区别",
+            "link": "#内存与外存的区别",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/content/%E7%A1%AC%E4%BB%B6%E7%AF%87/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6.html",
@@ -232,7 +221,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "键盘",
+    "title": "键盘与截图",
     "headers": [
       {
         "level": 3,
@@ -334,7 +323,22 @@ export const searchIndex = [
   },
   {
     "title": "关机的正确方式及笔记本快速启动设置调整",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "正确的关机方式",
+        "slug": "正确的关机方式",
+        "link": "#正确的关机方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关闭快速启动功能以延长电池寿命",
+        "slug": "关闭快速启动功能以延长电池寿命",
+        "link": "#关闭快速启动功能以延长电池寿命",
+        "children": []
+      }
+    ],
     "path": "/content/%E8%BD%AF%E4%BB%B6%E7%AF%87/%E5%BC%80%E5%85%B3%E6%9C%BA.html",
     "pathLocale": "/",
     "extraFields": []
@@ -343,32 +347,33 @@ export const searchIndex = [
     "title": "推荐安装应用",
     "headers": [
       {
-        "level": 3,
+        "level": 2,
         "title": "杀毒安全软件",
         "slug": "杀毒安全软件",
         "link": "#杀毒安全软件",
         "children": []
       },
       {
-        "level": 3,
+        "level": 2,
         "title": "工具类",
         "slug": "工具类",
         "link": "#工具类",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "解压软件",
-        "slug": "解压软件",
-        "link": "#解压软件",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "游戏启动器",
-        "slug": "游戏启动器",
-        "link": "#游戏启动器",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "解压软件",
+            "slug": "解压软件",
+            "link": "#解压软件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "游戏启动器",
+            "slug": "游戏启动器",
+            "link": "#游戏启动器",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/content/%E8%BD%AF%E4%BB%B6%E7%AF%87/%E6%8E%A8%E8%8D%90%E5%AE%89%E8%A3%85%E5%BA%94%E7%94%A8.html",

@@ -1,4 +1,4 @@
-<template><div><h1 id="键盘" tabindex="-1"><a class="header-anchor" href="#键盘"><span><strong>键盘</strong></span></a></h1>
+<template><div><h1 id="键盘与截图" tabindex="-1"><a class="header-anchor" href="#键盘与截图"><span><strong>键盘与截图</strong></span></a></h1>
 <p>当你第一次拿到笔记本电脑时候会发现它是合页型结构，开开盖子，上部分是屏幕，下部分是键盘。键盘用于输入各种字符向电脑传输指令。常用的键盘依照键数可分为101键、104键和87键等多种类型，87键位通常是不带有小键盘的（即右边数字键盘）他比其他键盘更加小巧方便携带
 <img src="/键盘.png" alt="alt text"></p>
 <h6 id="常见的104键位布局-图片来自于维基百科" tabindex="-1"><a class="header-anchor" href="#常见的104键位布局-图片来自于维基百科"><span>常见的104键位布局，图片来自于<a href="https://zh.wikipedia.org/zh-cn/%E5%8A%9F%E8%83%BD%E9%94%AE" target="_blank" rel="noopener noreferrer">维基百科</a></span></a></h6>

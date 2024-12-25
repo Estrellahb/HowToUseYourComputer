@@ -1,5 +1,4 @@
-<template><div><hr>
-<h1 id="此电脑" tabindex="-1"><a class="header-anchor" href="#此电脑"><span><strong>此电脑</strong></span></a></h1>
+<template><div><h1 id="此电脑" tabindex="-1"><a class="header-anchor" href="#此电脑"><span>此电脑</span></a></h1>
 <p>在桌面上有一个像计算机的图标，它是 Windows 系统的资源管理器，你在电脑上的所有数据文件都会显示在这里。如果在你的桌面上不显示这个图标，可以进行以下操作来显示：</p>
 <ol>
 <li>右键点击桌面空白处，在弹出的菜单栏选择“个性化”。</li>

@@ -11,7 +11,6 @@
 <li><strong>数据隐私和安全</strong>：本地软件可以保护用户数据，不需担心数据传输和存储安全问题。</li>
 <li><strong>专业需求</strong>：某些专业软件需要在本地安装，以满足特定工作要求。</li>
 </ol>
-<p>这些原因让人们选择在电脑上下载安装软件，以满足不同的需求和场景。</p>
 <h2 id="下载软件" tabindex="-1"><a class="header-anchor" href="#下载软件"><span>下载软件</span></a></h2>
 <p>有的电脑会自带一个应用商城、360软件安装助手这类的软件，如果你真的没有信息获取的能力，请在这里下载
 我要推荐的是找寻软件的官网去下载软件
@@ -65,20 +64,20 @@
 <p><img src="@source/content/软件篇/image-15.png" alt="alt text"></p>
 <ul>
 <li>
-<p>该程序要创建快速启动，这里就next
+<p>该程序要创建快速启动，这里就next<br>
 <img src="@source/content/软件篇/image-16.png" alt="alt text"></p>
 </li>
 <li>
-<p>创建桌面快捷方式，我没勾选
+<p>创建桌面快捷方式，我没勾选<br>
 <img src="@source/content/软件篇/image-17.png" alt="alt text"></p>
 </li>
 <li>
-<p>点击install
+<p>点击install<br>
 <img src="@source/content/软件篇/image-13.png" alt="alt text"></p>
 </li>
 <li>
-<p>点击finish
-<img src="@source/content/软件篇/image-12.png" alt="alt text">
+<p>点击finish<br>
+<img src="@source/content/软件篇/image-12.png" alt="alt text"><br>
 安装完后自动弹出应用程序，如果界面全英文可以在左上角设置中把语言调成chinese。在浏览器集成中可以安装以下支持的浏览器，之后会自动拦截浏览器所有下载</p>
 </li>
 </ul>

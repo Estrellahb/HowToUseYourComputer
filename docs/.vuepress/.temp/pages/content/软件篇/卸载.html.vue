@@ -1,10 +1,10 @@
 <template><div><h1 id="卸载" tabindex="-1"><a class="header-anchor" href="#卸载"><span>卸载</span></a></h1>
 <p>在手机上卸载方式是长按软件图标，拖动或者点击删除删除掉。那电脑上以同样的方式删除，把图标拖到回收站并清空？
 <strong>这样是不对的</strong>
-因为你删除的只是快捷方式
-<img src="@source/content/软件篇/image-18.png" alt="alt text">
-像这样左下角带有小箭头的表示此图标是快捷方式，其作用是打开目标位置的.exe文件，你可以右键该图标——属性，查看这个图标指向的位置
-<img src="@source/content/软件篇/image-19.png" alt="alt text">
+因为你删除的只是快捷方式<br>
+<img src="@source/content/软件篇/image-18.png" alt="alt text"><br>
+像这样左下角带有小箭头的表示此图标是快捷方式，其作用是打开目标位置的.exe文件，你可以右键该图标——属性，查看这个图标指向的位置<br>
+<img src="@source/content/软件篇/image-19.png" alt="alt text"><br>
 <em><strong>删掉快捷方式会对程序运行有影响吗？</strong></em>
 对程序没有，对你可能有，因为你找不到了。无需担心快捷方式占用磁盘空间，它只有1kb。</p>
 <h2 id="正确卸载应用" tabindex="-1"><a class="header-anchor" href="#正确卸载应用"><span>正确卸载应用</span></a></h2>

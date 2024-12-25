@@ -11,7 +11,7 @@
 > 💡 完整内容 [How-To-Ask-Questions](https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
 
 
->打不开可以看这个PDF[提问的智慧.pdf](/HowToUseYourComputer/docs/content/提问的智慧.pdf)
+>打不开可以看这个PDF[提问的智慧.pdf](/HowToUseYourComputer/提问的智慧.pdf)
 
 ## 为什么要提问
 引自ChatGPT：

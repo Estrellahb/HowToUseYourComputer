@@ -56,9 +56,9 @@ export default defineUserConfig({
 
   // 插件
   plugins: [
-    ['@vuepress/plugin-active-header-links', {
-      sidebarLinkSelector: '.sidebar-link',
-      headerAnchorSelector: '.header-anchor'
-    }],
+    // ['@vuepress/plugin-active-header-links', {
+    //   sidebarLinkSelector: '.sidebar-link',
+    //   headerAnchorSelector: '.header-anchor'
+    // }],
   ]
 });

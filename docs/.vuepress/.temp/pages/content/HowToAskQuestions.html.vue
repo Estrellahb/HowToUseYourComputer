@@ -11,7 +11,7 @@
 <p>💡 完整内容 <a href="https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md" target="_blank" rel="noopener noreferrer">How-To-Ask-Questions</a></p>
 </blockquote>
 <blockquote>
-<p>打不开可以看这个PDF<a href="/HowToUseYourComputer/docs/content/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7.pdf">提问的智慧.pdf</a></p>
+<p>打不开可以看这个PDF<a href="/HowToUseYourComputer/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7.pdf">提问的智慧.pdf</a></p>
 </blockquote>
 <h2 id="为什么要提问" tabindex="-1"><a class="header-anchor" href="#为什么要提问"><span>为什么要提问</span></a></h2>
 <p>引自ChatGPT：</p>

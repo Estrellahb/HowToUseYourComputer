@@ -45,7 +45,18 @@ const sidebar: SidebarConfig = {
             '推荐安装应用.md',
             '解压.md',
         ]
-    }
+    },
+    {
+      text:'求职避坑指南',
+      prefix: '/content/求职避坑指南/',
+      // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+      // 可选的。设置分组是否默认展开，默认值是 false
+      expanded: true,
+      children:[
+          '内容.md',
+      ]
+  }
   ]
 }
 
